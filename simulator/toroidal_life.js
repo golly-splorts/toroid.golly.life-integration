@@ -306,7 +306,7 @@
           } else {
             var sp1 = gameApiResult.season + 1;
             var dp1 = gameApiResult.day + 1;
-            var descr = "Toroidal Cup: Season " + sp1 + " Day " + dp1;
+            var descr = "Season " + sp1 + " Day " + dp1;
             gameTitleElem.innerHTML = descr;
           }
 
