@@ -1,3 +1,11 @@
+#zone1label, #zone2label {
+    margin-bottom: 25px;
+}
+
+#zone3label, #zone4label {
+    margin-top: 25px;
+}
+
 .navbar-dark .navbar-brand {
     color: #6BD0FF;
 }
