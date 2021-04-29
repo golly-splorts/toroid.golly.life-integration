@@ -1,15 +1,18 @@
+/* give map labels some room, toroidal maps are small */
 #zone1label, #zone2label {
     margin-bottom: 25px;
 }
-
 #zone3label, #zone4label {
     margin-top: 25px;
 }
 
-.navbar-dark .navbar-brand {
-    color: #6BD0FF;
+/* navbar color */
+.navbar-dark .navbar-brand,
+.navbar-dark .navbar-brand:hover {
+    color: #6BD0FF !important;
 }
 
+/* navbar logo padding */
 .navbar-brand-logo {
   width: 25px;
   height: 25px;
