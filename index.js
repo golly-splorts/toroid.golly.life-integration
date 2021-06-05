@@ -124,6 +124,18 @@
           elem.remove();
         }
       }
+      var loadingContainer = document.getElementById('container-loading');
+      if (show) {
+        // Make loading message container uninvisible
+        if (loadingContainer != null) {
+          loadingContainer.classList.remove('invisible');
+        }
+      } else {
+        // Remove the loading message container
+        if (loadingContainer != null) {
+          loadingContainer.remove();
+        }
+      }
     },
 
     /**
