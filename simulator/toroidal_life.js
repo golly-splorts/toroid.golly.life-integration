@@ -225,6 +225,7 @@
       } else if (this.patternName != null) {
         // Map mode with map overlay
         this.mapMode = true;
+        this.sandboxMode = true;
         this.grid.mapOverlay = true;
 
       } else if (this.random == 1) {
@@ -306,7 +307,7 @@
           } else {
             var sp1 = gameApiResult.season + 1;
             var dp1 = gameApiResult.day + 1;
-            var descr = "Season " + sp1 + " Day " + dp1;
+            var descr = "Toroidal Season " + sp1 + " Day " + dp1;
             gameTitleElem.innerHTML = descr;
           }
 
@@ -1179,7 +1180,7 @@
        * (sandbox mode only)
        */
       canvasMouseMove : function(event) {
-        if (GOL.sandboxMode === true || GOL.mapMode === true) {
+        if (GOL.sandboxMode === true) {
           if (GOL.handlers.mouseDown) {
             var position = GOL.helpers.mousePosition(event);
             if ((position[0] !== GOL.handlers.lastX) || (position[1] !== GOL.handlers.lastY)) {
