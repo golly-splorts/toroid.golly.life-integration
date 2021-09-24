@@ -155,8 +155,14 @@ div.card-body {
  * landing page
  ****************************/
 
-.flipdown-clock {
+.flipcontainer {
+    text-align: center;
     padding-bottom: 60px;
+}
+
+.flipdown {
+    display: inline-block;
+    width: auto;
 }
 
 /* .rotor-group-heading, .rotor-group-heading::before { */
