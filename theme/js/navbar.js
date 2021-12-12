@@ -65,7 +65,7 @@
           // Make Season link for postseason dropdown
           aElem = document.createElement('a');
           aElem.classList.add('dropdown-item');
-          aElem.setAttribute('href', baseUIUrl + '/season.html?which_season=' + sp1);
+          aElem.setAttribute('href', baseUIUrl + '/postseason.html?which_season=' + sp1);
           aElem.innerHTML = 'Season ' + sp1;
 
           // Append li to ul
