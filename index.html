@@ -24,10 +24,13 @@ var mapsApiUrl = 'https://maps.golly456.life';
 
     <!--
         Versions:
-        gollyx-toroidal-pelican: 69.0.0
-        gollyx-toroidal-pelican-theme: 69.0.1
+        gollyx-toroidal-pelican: 299.1.0
+        gollyx-toroidal-pelican-theme: 299.0.0
     -->
 
+    <link href="https://toroidal.integration.golly456.life/theme/css/flipdown.min.css"  rel="stylesheet" type="text/css">
+    <!-- re-include custom.css to override some flipdown.css settings -->
+    <link href="https://toroidal.integration.golly456.life/theme/css/custom.css"  rel="stylesheet" type="text/css">
 
 </head>
 <body id="index">
@@ -110,11 +113,10 @@ var mapsApiUrl = 'https://maps.golly456.life';
                   <li><a class="dropdown-item" href="https://wiki.golly.life/wiki/Fargo_Flea_Flickers">Fargo Flea Flickers</a></li>
                   <li><a class="dropdown-item" href="https://wiki.golly.life/wiki/Grand_Junction_Conjunctions">Grand Junction Conjunctions</a></li>
                   <li><a class="dropdown-item" href="https://wiki.golly.life/wiki/Jersey_OSHA_Violations">Jersey OSHA Violations</a></li>
-                  <li><a class="dropdown-item" href="https://wiki.golly.life/wiki/Long_Beach_Flightless_Birds">Long Beach Flightless Birds</a></li>
               </ul>
               <ul class="list-unstyled col-md-6">
+                  <li><a class="dropdown-item" href="https://wiki.golly.life/wiki/Long_Beach_Flightless_Birds">Long Beach Flightless Birds</a></li>
                   <li><a class="dropdown-item" href="https://wiki.golly.life/wiki/Milwaukee_Flamingos">Milwaukee Flamingos</a></li>
-                  <li><a class="dropdown-item" href="https://wiki.golly.life/wiki/Mobile_Wheels">Mobile Wheels</a></li>
                   <li><a class="dropdown-item" href="https://wiki.golly.life/wiki/Orlando_Business_Majors">Orlando Business Majors</a></li>
                   <li><a class="dropdown-item" href="https://wiki.golly.life/wiki/Phoenix_Freshrolls">Phoenix Freshrolls</a></li>
                   <li><a class="dropdown-item" href="https://wiki.golly.life/wiki/Sacramento_Boot_Lickers">Sacramento Boot Lickers</a></li>
@@ -127,33 +129,6 @@ var mapsApiUrl = 'https://maps.golly456.life';
                   <li><a class="dropdown-item" href="https://wiki.golly.life/wiki/Vegas_Vampires">Vegas Vampires</a></li>
               </ul>
             </div>
-            <!--
-            <a class="dropdown-item" href="https://wiki.golly.life/wiki/Alewife_Arsonists">Alewife Arsonists</a>
-            <a class="dropdown-item" href="https://wiki.golly.life/wiki/Albuquerque_Solarpunks">Albuquerque Solarpunks</a>
-            <a class="dropdown-item" href="https://wiki.golly.life/wiki/Boylston_Boogers">Boylston Boogers</a>
-            <a class="dropdown-item" href="https://wiki.golly.life/wiki/Baltimore_Texas">Baltimore Texas</a>
-            <a class="dropdown-item" href="https://wiki.golly.life/wiki/Ft._Worth_Piano_Tuners">Ft. Worth Piano Tuners</a>
-            <a class="dropdown-item" href="https://wiki.golly.life/wiki/Baltimore_Piano_Tuners">Baltimore Piano_Tuners</a>
-            <a class="dropdown-item" href="https://wiki.golly.life/wiki/Delaware_Corporate_Shells">Delaware Corporate Shells</a>
-            <a class="dropdown-item" href="https://wiki.golly.life/wiki/Detroit_Grape_Chews">Detroit Grape Chews</a>
-            <a class="dropdown-item" href="https://wiki.golly.life/wiki/Elko_Astronauts">Elko Astronauts</a>
-            <a class="dropdown-item" href="https://wiki.golly.life/wiki/Fargo_Flea_Flickers">Fargo Flea Flickers</a>
-            <a class="dropdown-item" href="https://wiki.golly.life/wiki/Grand_Junction_Conjunctions">Grand Junction Conjunctions</a>
-            <a class="dropdown-item" href="https://wiki.golly.life/wiki/Jersey_OSHA_Violations">Jersey OSHA Violations</a>
-            <a class="dropdown-item" href="https://wiki.golly.life/wiki/Long_Beach_Flightless_Birds">Long Beach Flightless Birds</a>
-            <a class="dropdown-item" href="https://wiki.golly.life/wiki/Milwaukee_Flamingos">Milwaukee Flamingos</a>
-            <a class="dropdown-item" href="https://wiki.golly.life/wiki/Mobile_Wheels">Mobile Wheels</a>
-            <a class="dropdown-item" href="https://wiki.golly.life/wiki/Orlando_Business_Majors">Orlando Business Majors</a>
-            <a class="dropdown-item" href="https://wiki.golly.life/wiki/Phoenix_Freshrolls">Phoenix Freshrolls</a>
-            <a class="dropdown-item" href="https://wiki.golly.life/wiki/Sacramento_Boot_Lickers">Sacramento Boot Lickers</a>
-            <a class="dropdown-item" href="https://wiki.golly.life/wiki/Salt_Lake_Turbulence">Salt Lake Turbulence</a>
-            <a class="dropdown-item" href="https://wiki.golly.life/wiki/San_Diego_Balloon_Animals">San Diego Balloon Animals</a>
-            <a class="dropdown-item" href="https://wiki.golly.life/wiki/San_Francisco_Boat_Shoes">San Francisco Boat Shoes</a>
-            <a class="dropdown-item" href="https://wiki.golly.life/wiki/Seattle_Sneakers">Seattle Sneakers</a>
-            <a class="dropdown-item" href="https://wiki.golly.life/wiki/Sugar_Grove_Eavesdroppers">Sugar Grove Eavesdroppers</a>
-            <a class="dropdown-item" href="https://wiki.golly.life/wiki/Tucson_Butchers">Tucson Butchers</a>
-            <a class="dropdown-item" href="https://wiki.golly.life/wiki/Vegas_Vampires">Vegas Vampires</a>
-            -->
 
           </div>
         </li>
@@ -181,6 +156,8 @@ var mapsApiUrl = 'https://maps.golly456.life';
             <a class="dropdown-item" href="https://rainbow.golly.life">Rainbow Cup</a>
             <a class="dropdown-item" href="https://star.golly.life">Star Cup</a>
             <a class="dropdown-item" href="https://klein.golly.life">Klein Cup</a>
+            <a class="dropdown-item" href="https://ii.golly.life">Hellmouth II Cup</a>
+            <a class="dropdown-item" href="https://star.ii.golly.life">Star II Cup</a>
           </div>
         </li>
 
@@ -237,28 +214,597 @@ add this to pelican pages:
 <script type="text/javascript" src="https://toroidal.integration.golly456.life/theme/js/minilife.js"></script>
 --></template>
 
+<template id="finished-game-template">
+        <!-- finished game template -->
+        <div class="card text-white game-card finished-game-card">
+          <div class="card-body game-card-body finished-game-card-body">
 
-<div class="container">
+            <div class="game-card-team1 finished-game-card-team1">
+              <table width="100%">
+                <tr>
+                  <td> 
+                    <h6 class="game-card-team-name-header">
+                      <span class="team1color team1name">Team 1</span> <small><span class="team1color team1record">(W-L)</span></small>
+                    </h6>
+                  </td>
+                  <td align="right">
+                    <h6 class="game-card-team-name-header">
+                      <span class="team1color livecells1">100</span>
+                    </h6>
+                  </td>
+                </tr>
+              </table>
+            </div>
 
-    <div class="row text-center landing-header justify-content-lg-center">
-      <div class="col-lg-12">
-        <h1>The Toroidal Cup has been retired after 24 seasons!</h1>
-        <h3>Explore past Toroidal Cup seasons and postseasons,</h3>
-        <h3>or check out the other Cups:</h3>
-        <h3><a href="https://hellmouth.golly.life">The Hellmouth Cup @ hellmouth.golly.life</a></h3>
-        <h3><a href="https://pseudo.golly.life">The Pseudo Cup @ pseudo.golly.life</a></h3>
-        <h3><a href="https://dragon.golly.life">The Dragon Cup @ dragon.golly.life</a></h3>
-        <h3><a href="https://rainbow.golly.life">The Rainbow Cup @ rainbow.golly.life</a></h3>
+            <div class="game-card-team2 finished-game-card-team2">
+              <table width="100%">
+                <tr>
+                  <td> 
+                    <h6 class="game-card-team-name-header">
+                      <span class="team2color team2name">Team 2</span> <small><span class="team2color team2record">(W-L)</span></small>
+                    </h6>
+                  </td>
+                  <td align="right">
+                    <h6 class="game-card-team-name-header">
+                      <span class="team2color livecells2">2</span>
+                    </h6>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="game-card-map finished-game-card-map">
+              Map: <span class="map-name">Map Name</span>
+            </div>
+
+            <div class="game-card-map finished-game-card-map">
+              <span class="generations-number"></span> Generations
+            </div>
+
+            <div class="game-card-map finished-game-card-simulate">
+              <a href="#" style="margin-top: 20px;" role="button" class="simulate btn btn-primary btn-sm btn-success">View Simulation</a>
+            </div>
+          </div>
+        </div></template>
+
+<template id="finished-postgame-template">
+        <!-- postseason finished game template -->
+        <div class="card text-white game-card finished-game-card postseason-game-card">
+          <div class="card-body game-card-body finished-game-card-body">
+            <h5 class="card-title game-card-description postseason-game-card-description"><span class="postseason-game-description"></span></h5>
+
+            <div class="game-card-team1 finished-game-card-team1">
+              <table width="100%">
+                <tr>
+                  <td> 
+                    <h6 class="game-card-team-name-header">
+                      <span class="team1color team1name">Team 1</span> <small><span class="team1color team1seriesrecord">(W-L)</span></small>
+                    </h6>
+                  </td>
+                  <td align="right">
+                    <h6 class="game-card-team-name-header">
+                      <span class="team1color livecells1">100</span>
+                    </h6>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="game-card-team2 finished-game-card-team2">
+              <table width="100%">
+                <tr>
+                  <td> 
+                    <h6 class="game-card-team-name-header">
+                      <span class="team2color team2name">Team 2</span> <small><span class="team2color team2seriesrecord">(W-L)</span></small>
+                    </h6>
+                  </td>
+                  <td align="right">
+                    <h6 class="game-card-team-name-header">
+                      <span class="team2color livecells2">2</span>
+                    </h6>
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+            <div class="game-card-map finished-game-card-map">
+              Map: <span class="map-name">Map Name</span>
+            </div>
+
+            <div class="game-card-map finished-game-card-map">
+              <span class="generations-number"></span> Generations
+            </div>
+
+            <div class="game-card-map finished-game-card-simulate">
+              <a href="#" style="margin-top: 20px;" role="button" class="simulate btn btn-primary btn-sm btn-success">View Simulation</a>
+            </div>
+          </div>
+        </div></template>
+
+<template id="inprogress-game-template">
+        <!-- in progress game template -->
+        <div class="card text-white game-card inprogress-game-card">
+          <div class="card-body game-card-body inprogress-game-card-body">
+            <div class="game-card-team1 inprogress-game-card-team1">
+              <h6 class="game-card-team-name-header">
+                <span class="team1color team1name">Team 1</span> <small><span class="team1color team1record">(W-L)</span></small>
+              </h6>
+            </div>
+            <div class="game-card-team2 inprogress-game-card-team2">
+              <h6 class="game-card-team-name-header">
+                <span class="team2color team2name">Team 2</span> <small><span class="team2color team2record">(W-L)</span></small>
+              </h6>
+            </div>
+            <div class="game-card-map inprogress-game-card-map">
+              Map: <span class="map-name">Map Name</span>
+            </div>
+            <div class="game-card-map inprogress-game-card-simulate">
+              <a href="#" style="margin-top: 20px;" role="button" class="simulate btn btn-primary btn-sm btn-success">View Simulation</a>
+            </div>
+          </div>
+        </div></template>
+
+<template id="inprogress-postgame-template">
+        <!-- postseason in progress template -->
+        <div class="card text-white game-card inprogress-game-card postseason-game-card">
+          <div class="card-body game-card-body inprogress-game-card-body postseason-game-card-body">
+            <h5 class="card-title game-card-description postseason-game-card-description"><span class="postseason-game-description">Game _, _ Series</span></h5>
+
+            <div class="game-card-team1 inprogress-game-card-team1">
+              <h6 class="game-card-team-name-header">
+                <span class="team1color team1name">Team 1</span> <small><span class="team1color team1seed">(0)</span></small>
+              </h6>
+            </div>
+            <div class="game-card-team2 inprogress-game-card-team2">
+              <h6 class="game-card-team-name-header">
+                <span class="team2color team2name">Team 2</span> <small><span class="team2color team2seed">(0)</span></small>
+              </h6>
+            </div>
+            <div class="game-card-map inprogress-game-card-map">
+              Map: <span class="map-name">Map Name</span>
+            </div>
+            <div class="game-card-map inprogress-game-card-simulate">
+              <a href="#" style="margin-top: 20px;" role="button" class="simulate btn btn-primary btn-sm btn-success">View Simulation</a>
+            </div>
+          </div>
+        </div></template>
+
+<template id="scheduled-game-template">
+        <!-- scheduled game template -->
+        <div class="card text-white game-card scheduled-game-card">
+          <div class="card-body game-card-body scheduled-game-card-body">
+            <div class="game-card-team1 scheduled-game-card-team1">
+              <h6 class="game-card-team-name-header">
+                <span class="team1color team1name">Team 1</span> <small><span class="team1color team1record">(W-L)</span></small>
+              </h6>
+            </div>
+            <div class="game-card-team2 scheduled-game-card-team2">
+              <h6 class="game-card-team-name-header">
+                <span class="team2color team2name">Team 2</span> <small><span class="team2color team2record">(W-L)</span></small>
+              </h6>
+            </div>
+            <div class="game-card-map scheduled-game-card-map">
+              Map: <span class="map-name">Map Name</span>
+            </div>
+          </div>
+        </div></template>
+
+<template id="scheduled-postgame-template">
+        <!-- postseason scheduled game -->
+        <div class="card text-white game-card scheduled-game-card postseason-game-card">
+          <div class="card-body game-card-body scheduled-game-card-body postseason-game-card-body">
+            <h5 class="card-title game-card-description postseason-game-card-description"><span class="postseason-game-description">Game _, _ Series</span></h5>
+
+            <div class="game-card-team1 scheduled-game-card-team1">
+              <h6 class="game-card-team-name-header">
+                <span class="team1color team1name">Team 1</span> <small><span class="team1color team1seed">(0)</span></small>
+              </h6>
+            </div>
+            <div class="game-card-team2 scheduled-game-card-team2">
+              <h6 class="game-card-team-name-header">
+                <span class="team2color team2name">Team 2</span> <small><span class="team2color team2seed">(0)</span></small>
+              </h6>
+            </div>
+            <div class="game-card-map scheduled-game-card-map">
+              Map: <span class="map-name">Map Name</span>
+            </div>
+          </div>
+        </div></template>
+
+<template id="seed-table-template">
+    <!-- seed table template -->
+    <div class="row text-center seed-table-header" id="ws-ongoing-seed-table-header">
+      <div class="col-md-12">
+        <h2 class="text-center">Postseason Seeds</h2>
       </div>
+    </div>
+
+    <div class="row justify-content-md-center seed-table ongoing-seed-table" id="ws-ongoing-seed-table">
+      <div class="col-lg-4">
+          <h4 class="text-center" id="seed-table-league-1-header"><span id="seed-table-league-1-name">League 1</span> Seeds</h4>
+
+          <ul class="list-group">
+
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              <span>
+                <span class="seed-table-team-name" id="league-1-seed-1">Seed</span> <small><span id="league-1-seed-1-record">(W-L)</span></small>
+              </span>
+              <span class="badge badge-primary badge-pill seed-number">1</span>
+            </li>
+
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              <span>
+                <span class="seed-table-team-name" id="league-1-seed-2">Seed</span> <small><span id="league-1-seed-2-record">(W-L)</span></small>
+              </span>
+              <span class="badge badge-primary badge-pill seed-number">2</span>
+            </li>
+
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              <span>
+                <span class="seed-table-team-name" id="league-1-seed-3">Seed</span> <small><span id="league-1-seed-3-record">(W-L)</span></small>
+              </span>
+              <span class="badge badge-primary badge-pill seed-number">3</span>
+            </li>
+
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              <span>
+                <span class="seed-table-team-name" id="league-1-seed-4">Seed</span> <small><span id="league-1-seed-4-record">(W-L)</span></small>
+              </span>
+              <span class="badge badge-primary badge-pill seed-number">4</span>
+            </li>
+
+          </ul>
+
+      </div>
+
+
+      <div class="col-lg-1">
+      </div>
+
+
+      <div class="col-lg-4">
+          <h4 class="text-center" id="seed-table-league-2-header"><span id="seed-table-league-2-name">League 2</span> Seeds</h4>
+
+          <ul class="list-group">
+
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              <span>
+                <span class="seed-table-team-name" id="league-2-seed-1">Seed</span> <small><span id="league-2-seed-1-record">(W-L)</span></small>
+              </span>
+              <span class="badge badge-primary badge-pill seed-number">1</span>
+            </li>
+
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              <span>
+                <span class="seed-table-team-name" id="league-2-seed-2">Seed</span> <small><span id="league-2-seed-2-record">(W-L)</span></small>
+              </span>
+              <span class="badge badge-primary badge-pill seed-number">2</span>
+            </li>
+
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              <span>
+                <span class="seed-table-team-name" id="league-2-seed-3">Seed</span> <small><span id="league-2-seed-3-record">(W-L)</span></small>
+              </span>
+              <span class="badge badge-primary badge-pill seed-number">3</span>
+            </li>
+
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              <span>
+                <span class="seed-table-team-name" id="league-2-seed-4">Seed</span> <small><span id="league-2-seed-4-record">(W-L)</span></small>
+              </span>
+              <span class="badge badge-primary badge-pill seed-number">4</span>
+            </li>
+
+          </ul>
+
+      </div>
+
+    </div>
+    <!-- end seed table template --></template>
+
+
+<div class="container invisible" id="container-loading">
+
+  <div class="row text-center notify-header invisible loading-message" id="season-loading-message">
+    <div class="col-lg-12">
+      <h4 class="text-success">The site is currently loading...</h4>
+    </div>
+  </div>
+
+</div>
+
+
+<div class="container invisible" id="container-mode0009">
+
+    <div class="row text-center landing-header justify-content-sm-center">
+      <div class="col-lg-12">
+        <h2>Season <span id="landing-header-season-number">_</span> will begin soon!</h2>
+      </div>
+    </div>
+
+    <div class="row justify-content-sm-center flipdown-clock">
+      <div id="flipdown" class="flipdown"></div>
     </div>
 
     <div class="row text-center landing-header">
       <div class="col-lg-12">
-        <p>The last season is over. While you're deciding what to do next, here is a Game of Life simulator. Click to turn cells on and off!</p>
+        <p>The next season will begin soon. In the meantime, here is a Game of Life simulator. Click to turn cells on and off!</p>
       </div>
     </div>
 
     <div class="minilife" id="minilife-player">
+    </div>
+
+</div>
+
+
+
+<div class="container invisible" id="container-mode1019">
+
+    <div class="row text-center landing-header">
+      <div class="col-lg-12">
+        <h2>Season <span id="landing-header-season-number">_</span><span style="display: none;" id="landing-header-day"> Day <span id="landing-header-day-number">_</span></span>: Current Games</h2>
+      </div>
+    </div>
+
+    <div class="row text-center notify-header invisible loading-message" id="mode1019-loading-message">
+      <div class="col-lg-12">
+        <h4 class="text-success">The site is currently loading...</h4>
+      </div>
+    </div>
+
+    <div class="row justify-content-md-center" id="season-leagues-container">
+      <div class="col-md-6 league-container" id="league-1-container">
+        <h4 class="text-center league-container-header" id="league-1-header"><span id="league-1-name"></span></h4>
+      </div>
+
+      <div class="col-md-6 league-container" id="league-2-container">
+        <h4 class="text-center league-container-header" id="league-2-header"><span id="league-2-name"></span></h4>
+      </div>
+    </div>
+
+</div>
+
+
+
+<div class="container container-mode2029 invisible" id="container-mode21">
+
+    <div class="row text-center landing-header">
+      <div class="col-lg-12">
+        <h2>Season <span id="landing-header-season-number">_</span>: Toroidal Cup League Division Series</h2>
+        <h4>This best of 5 series will begin soon!</h4>
+      </div>
+    </div>
+
+    <div class="row justify-content-sm-center flipdown-clock">
+      <div id="flipdown" class="flipdown"></div>
+    </div>
+
+    <div class="row text-center notify-header invisible loading-message" id="mode21-loading-message">
+      <div class="col-lg-12">
+        <h4 class="text-success">The site is currently loading...</h4>
+      </div>
+    </div>
+
+    <div class="row justify-content-md-center waiting-container" id="lds-waiting-container">
+      <div class="col-md-5 league-container" id="league-1-container">
+        <h4 class="text-center league-container-header" id="league-1-header"><span id="league-1-name"></span></h4>
+      </div>
+
+      <div class="col-md-5 league-container" id="league-2-container">
+        <h4 class="text-center league-container-header" id="league-2-header"><span id="league-2-name"></span></h4>
+      </div>
+    </div>
+
+    <div class="seed-table waiting-seed-table" id="lds-waiting-seed-table">
+    </div>
+
+</div>
+
+
+
+
+<div class="container container-mode2029 invisible" id="container-mode22">
+
+    <div class="row text-center landing-header">
+      <div class="col-lg-12">
+        <h2>Season <span id="landing-header-season-number">_</span>: Toroidal Cup League Championship Series</h2>
+        <h4>This best of 5 series will begin soon!</h4>
+      </div>
+    </div>
+
+    <div class="row justify-content-sm-center flipdown-clock">
+      <div id="flipdown" class="flipdown"></div>
+    </div>
+
+    <div class="row text-center notify-header invisible loading-message" id="mode22-loading-message">
+      <div class="col-lg-12">
+        <h4 class="text-success">The site is currently loading...</h4>
+      </div>
+    </div>
+
+    <div class="row justify-content-md-center waiting-container" id="lcs-waiting-container">
+      <div class="col-md-5 league-container" id="league-1-container">
+        <h4 class="text-center league-container-header" id="league-1-header"><span id="league-1-name"></span></h4>
+      </div>
+
+      <div class="col-md-5 league-container" id="league-2-container">
+        <h4 class="text-center league-container-header" id="league-2-header"><span id="league-2-name"></span></h4>
+      </div>
+    </div>
+
+    <div class="seed-table waiting-seed-table" id="lcs-waiting-seed-table">
+    </div>
+
+</div>
+
+
+
+<div class="container container-mode2029 invisible" id="container-mode23">
+
+    <div class="row text-center landing-header">
+      <div class="col-lg-12">
+        <h2>Season <span id="landing-header-season-number">_</span>: Toroidal Cup</h2>
+        <h4>This best of 7 series will begin soon!</h4>
+      </div>
+    </div>
+
+    <div class="row justify-content-sm-center flipdown-clock">
+      <div id="flipdown" class="flipdown"></div>
+    </div>
+
+    <div class="row text-center notify-header invisible loading-message" id="mode23-loading-message">
+      <div class="col-lg-12">
+        <h4 class="text-success">The site is currently loading...</h4>
+      </div>
+    </div>
+
+    <div class="row justify-content-md-center waiting-container" id="hcs-waiting-container">
+      <div class="col-md-5 league-container" id="hcs-league-waiting-container">
+      </div>
+    </div>
+
+    <div class="seed-table ongoing-seed-table" id="hcs-ongoing-seed-table">
+    </div>
+
+</div>
+
+
+
+<div class="container container-mode3039 invisible" id="container-mode31">
+
+    <div class="row text-center landing-header">
+      <div class="col-lg-12">
+        <h2>Season <span id="landing-header-season-number">_</span>: Toroidal Cup League Division Series</h2>
+        <h4>Best of 5</h4>
+      </div>
+    </div>
+
+    <div class="row text-center notify-header invisible loading-message" id="mode31-loading-message">
+      <div class="col-lg-12">
+        <h4 class="text-success">The site is currently loading...</h4>
+      </div>
+    </div>
+
+    <div class="row justify-content-md-center ongoing-container lds-ongoing-container">
+      <div class="col-md-5 league-container" id="league-1-container">
+        <h4 class="text-center league-container-header" id="league-1-header"><span id="league-1-name"></span></h4>
+      </div>
+
+      <div class="col-md-5 league-container" id="league-2-container">
+        <h4 class="text-center league-container-header" id="league-2-header"><span id="league-2-name"></span></h4>
+      </div>
+    </div>
+
+    <div class="seed-table ongoing-seed-table" id="lds-ongoing-seed-table">
+    </div>
+
+</div>
+
+
+
+<div class="container container-mode3039 invisible" id="container-mode32">
+
+    <div class="row text-center landing-header">
+      <div class="col-lg-12">
+        <h2>Season <span id="landing-header-season-number">_</span>: Toroidal Cup League Championship Series</h2>
+        <h4>Best of 5</h4>
+      </div>
+    </div>
+
+    <div class="row text-center notify-header invisible loading-message" id="mode32-loading-message">
+      <div class="col-lg-12">
+        <h4 class="text-success">The site is currently loading...</h4>
+      </div>
+    </div>
+
+    <div class="row justify-content-md-center ongoing-container" id="lcs-ongoing-container">
+      <div class="col-md-5 league-container" id="league-1-container">
+        <h4 class="text-center league-container-header" id="league-1-header"><span id="league-1-name"></span></h4>
+      </div>
+
+      <div class="col-md-5 league-container" id="league-2-container">
+        <h4 class="text-center league-container-header" id="league-2-header"><span id="league-2-name"></span></h4>
+      </div>
+    </div>
+
+    <div class="seed-table ongoing-seed-table" id="lcs-ongoing-seed-table">
+    </div>
+
+</div>
+
+
+
+<div class="container container-mode3039 invisible" id="container-mode33">
+
+    <div class="row text-center landing-header">
+      <div class="col-lg-12">
+        <h2>Season <span id="landing-header-season-number">_</span>: Toroidal Cup</h2>
+        <h4>Best of 7</h4>
+      </div>
+    </div>
+
+    <div class="row text-center notify-header invisible loading-message" id="mode33-loading-message">
+      <div class="col-lg-12">
+        <h4 class="text-success">The site is currently loading...</h4>
+      </div>
+    </div>
+
+    <div class="row justify-content-md-center ongoing-container" id="hcs-ongoing-container">
+      <div class="col-md-5 league-container" id="hcs-league-ongoing-container">
+      </div>
+    </div>
+
+    <div class="seed-table ongoing-seed-table" id="hcs-ongoing-seed-table">
+    </div>
+
+</div>
+
+
+<div class="container invisible" id="container-mode40plus">
+
+  <h2 class="text-center landing-header">Season <span id="landing-header-season-number">_</span> has ended.<h2>
+
+  <div class="row text-center notify-header invisible loading-message" id="mode33-loading-message">
+    <div class="col-lg-12">
+      <h4 class="text-success">The site is currently loading...</h4>
+    </div>
+  </div>
+
+  <div class="icon-container text-center" id="champion-icon-container"></div>
+
+  <h3 class="text-center invisible champion-header" id="champion-name-header">Your Toroidal Cup Champions are: The <span id="champion-team">Winners</span>!</h3>
+
+  <div class="row text-center landing-header">
+    <div class="col-lg-12">
+      <p>The next season will begin soon. In the meantime, here is a Game of Life simulator. Click to turn cells on and off!</p>
+    </div>
+  </div>
+
+  <div class="vspace40">
+  </div>
+
+  <div class="minilife" id="minilife-player">
+  </div>
+
+</div>
+
+
+<div class="container invisible" id="container-error">
+
+    <div class="row text-center notify-header">
+      <div class="col-lg-12">
+        <h2 class="text-danger">The site has experienced a technical glitch.</h2>
+      </div>
+    </div>
+
+    <div class="row text-center notify-body">
+      <div class="col-lg-12">
+        <p>
+        Ninjas have been dispatched to track down those responsible for the downtime
+        and bring them back to Hellmouth Community College to fix the site.
+        </p>
+      </div>
     </div>
 
 </div>
@@ -282,6 +828,7 @@ add this to pelican pages:
 <script type="text/javascript" src="https://toroidal.integration.golly456.life/theme/js/jquery-svg.js"></script>
   <script type="text/javascript" src="https://toroidal.integration.golly456.life/theme/js/json-sans-eval.js"></script>
   <script type="text/javascript" src="https://toroidal.integration.golly456.life/theme/js/minilife_core.js"></script>
+  <script type="text/javascript" src="https://toroidal.integration.golly456.life/theme/js/flipdown.min.js"></script>
   <script type="text/javascript" src="index.js"></script>
 
 <footer id="contentinfo" class="body">
